@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\.dcc893b99cc53eef877bfed7cd79db3e49d5b061-audit.json",
+    "files": [
+        {
+            "date": 1685828620577,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-04-03-success.log",
+            "hash": "17e76ee13b0e329bc3b847ea0d4362d2e068a1a3907fb5b06c0bdf34b357a4f3"
+        }
+    ],
+    "hashType": "sha256"
+}

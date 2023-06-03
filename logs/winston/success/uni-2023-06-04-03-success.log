@@ -1,0 +1,36 @@
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:43:41.432Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:43:41.438Z'
+}
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:43:41.813Z'
+}
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:44:02.315Z'
+}
+{
+  message: 'Example app listening on port 5000',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:44:02.321Z'
+}
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-03T21:44:02.780Z'
+}
