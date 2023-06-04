@@ -1,0 +1,12 @@
+{
+  errno: undefined,
+  code: 'ETIMEOUT',
+  syscall: 'querySrv',
+  hostname: '_mongodb._tcp.cluster2.y3njyog.mongodb.net',
+  level: 'error',
+  message: 'Failed to connect to Database. querySrv ETIMEOUT _mongodb._tcp.cluster2.y3njyog.mongodb.net',
+  stack: 'Error: querySrv ETIMEOUT _mongodb._tcp.cluster2.y3njyog.mongodb.net\n' +
+    '    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:251:17)',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-04T13:55:07.334Z'
+}

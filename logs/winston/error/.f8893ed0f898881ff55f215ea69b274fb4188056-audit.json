@@ -9,6 +9,26 @@
             "date": 1685828641490,
             "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-04-03-error.log",
             "hash": "b79d05acbe305b06e8e8356fa886eb126a9db6093f3ecda38a45b335ccbfbd70"
+        },
+        {
+            "date": 1685886021404,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-04-19-error.log",
+            "hash": "1767724b50ebfe5476599cc2ae99f177db5196fa8ce0301e10eb47d4b7f77922"
+        },
+        {
+            "date": 1685887202142,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-04-20-error.log",
+            "hash": "7947cd73a63b2035f2d6cfb26ec7988cfb3574b08be9d1f1b8d47aa3888f1a25"
+        },
+        {
+            "date": 1685890929996,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-04-21-error.log",
+            "hash": "4a410d982467b4d12823ba7d48ac872ec6c6f8c9b47e84d1bcd603982afebd49"
+        },
+        {
+            "date": 1685894968943,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-04-22-error.log",
+            "hash": "93090a5b26b9e4f3edcef58c5ea10459db9e086136895670ee9b842abf025b19"
         }
     ],
     "hashType": "sha256"
