@@ -3,6 +3,7 @@ import ApiError from '../../../errors/ApiError'
 import { IUser } from './user.interface'
 import { User } from './user.model'
 import { generateUserId } from './user.utils'
+// import { generateUserId } from './user.utils'
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // auto generated incremental id

@@ -10,12 +10,16 @@ app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+
+
+
 //applications route
 app.use('/api/v1/users/', userRoute)
 
 
 
-
+// global error handler
+app.use(globalErrorHandler);
 
 // app.get('/', (req: Request, res: Response, next: NextFunction) => {
 //   res.send('Hello World')
@@ -25,6 +29,5 @@ app.use('/api/v1/users/', userRoute)
 // })
 //
 
-// global error handler
-app.use(globalErrorHandler)
+
 export default app
