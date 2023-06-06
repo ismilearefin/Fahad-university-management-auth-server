@@ -3,13 +3,14 @@ import ApiError from '../../../errors/ApiError'
 import { IUser } from './user.interface'
 import { User } from './user.model'
 import { generateUserId } from './user.utils'
-// import { generateUserId } from './user.utils'
+
 
 const createUser = async (user: IUser): Promise<IUser | null> => {
   // auto generated incremental id
   const id = await generateUserId()
 
-  user.id = id
+  user.id = id;
+ 
   // default password
   if (!user.password) {
     user.password = config.default_user_pass as string
@@ -24,6 +25,6 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
   return createdUser;
 }
 
-export default {
+export const UserService = {
   createUser,
 }
