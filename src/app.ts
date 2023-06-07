@@ -22,8 +22,9 @@ app.use('/api/v1/users/', UserRoutes)
 // global error handler
 app.use(globalErrorHandler);
 
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   res.send('Hello World')
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//     Promise.reject(new Error('Undandlled rejectiong'))
+// //   res.send('Hello World')
 // //   throw new ApiError(400,'Not implemented')
 // //   next('Ore baba error') // error
 
