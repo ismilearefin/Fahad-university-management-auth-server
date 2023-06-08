@@ -94,6 +94,16 @@
             "date": 1686146644597,
             "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-07-20-success.log",
             "hash": "ac2fa8c602afbc432da57f62c1b2fde371c4a70a40abd8557fe0a6a2f22d9890"
+        },
+        {
+            "date": 1686150558346,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-07-21-success.log",
+            "hash": "13fad3d3f798e821eea5bd658e0dc9c234167c4e863deefe07f519b90ba44946"
+        },
+        {
+            "date": 1686198117417,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-08-10-success.log",
+            "hash": "1b8729016e10d6afeefda90dde43590dc23f6e75dde2f74787644609e9d758cc"
         }
     ],
     "hashType": "sha256"
