@@ -1,0 +1,152 @@
+{
+  issues: [
+    {
+      expected: "'Autumn' | 'Summer' | 'Fall'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'title' ],
+      message: 'Title is required'
+    },
+    {
+      code: 'invalid_type',
+      expected: 'number',
+      received: 'undefined',
+      path: [ 'body', 'year' ],
+      message: 'Year is required'
+    },
+    {
+      expected: "'01' | '02' | '03'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'code' ],
+      message: 'Code is required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'startMonth' ],
+      message: 'Start month is required'
+    },
+    {
+      expected: "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",
+      received: 'undefined',
+      code: 'invalid_type',
+      path: [ 'body', 'endMonth' ],
+      message: 'End month is required'
+    }
+  ],
+  addIssue: [Function (anonymous)],
+  addIssues: [Function (anonymous)],
+  name: 'ZodError',
+  level: 'error',
+  message: 'globalErrorHandler [\n' +
+    '  {\n' +
+    `    "expected": "'Autumn' | 'Summer' | 'Fall'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    '    "message": "Title is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Code is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start month is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End month is required"\n' +
+    '  }\n' +
+    ']',
+  stack: 'ZodError: [\n' +
+    '  {\n' +
+    `    "expected": "'Autumn' | 'Summer' | 'Fall'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "title"\n' +
+    '    ],\n' +
+    '    "message": "Title is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    '    "code": "invalid_type",\n' +
+    '    "expected": "number",\n' +
+    '    "received": "undefined",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "year"\n' +
+    '    ],\n' +
+    '    "message": "Year is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'01' | '02' | '03'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "code"\n' +
+    '    ],\n' +
+    '    "message": "Code is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "startMonth"\n' +
+    '    ],\n' +
+    '    "message": "Start month is required"\n' +
+    '  },\n' +
+    '  {\n' +
+    `    "expected": "'January' | 'February' | 'March' | 'April' | 'May' | 'June' | 'July' | 'August' | 'September' | 'October' | 'November' | 'December'",\n` +
+    '    "received": "undefined",\n' +
+    '    "code": "invalid_type",\n' +
+    '    "path": [\n' +
+    '      "body",\n' +
+    '      "endMonth"\n' +
+    '    ],\n' +
+    '    "message": "End month is required"\n' +
+    '  }\n' +
+    ']\n' +
+    '    at Object.get error [as error] (C:\\projects\\Fahad-university\\university-management-auth-server\\node_modules\\zod\\lib\\types.js:43:31)\n' +
+    '    at ZodObject.parseAsync (C:\\projects\\Fahad-university\\university-management-auth-server\\node_modules\\zod\\lib\\types.js:164:22)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-08T07:52:59.921Z'
+}

@@ -114,6 +114,11 @@
             "date": 1686209895038,
             "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-08-13-error.log",
             "hash": "f64770486b0d8c40c48d12b556724308c7b0cef7b84aa61966af901b0db9723a"
+        },
+        {
+            "date": 1686236610111,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-08-21-error.log",
+            "hash": "5b6a5682133fc845590da2ec96c1e170d7780c64395f2fb895ec0240dad0d757"
         }
     ],
     "hashType": "sha256"
