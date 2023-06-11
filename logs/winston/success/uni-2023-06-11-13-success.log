@@ -430,3 +430,27 @@
   label: 'Fahad Uni',
   timestamp: '2023-06-11T07:52:52.076Z'
 }
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-11T07:52:55.259Z'
+}
+{
+  message: 'Example app listening on port 5500',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-11T07:52:55.265Z'
+}
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-11T07:59:53.705Z'
+}
+{
+  message: 'Example app listening on port 5500',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-11T07:59:53.711Z'
+}
