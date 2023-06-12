@@ -4,7 +4,9 @@ import { IUser } from './user.interface';
 import { User } from './user.model';
 import { generateUserId } from './user.utils';
 
-const createUser = async (user: IUser): Promise<IUser | null> => {
+// step---> 3
+
+const createUserFromService = async (user: IUser): Promise<IUser | null> => {
   // auto generated incremental id
   const id = await generateUserId();
 
@@ -25,5 +27,5 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
 };
 
 export const UserService = {
-  createUser,
+  createUserFromService,
 };
