@@ -1,0 +1,24 @@
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-12T14:08:08.777Z'
+}
+{
+  message: 'Example app listening on port 5500',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-12T14:08:08.790Z'
+}
+{
+  message: 'successfully connected to Database',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-12T14:10:24.539Z'
+}
+{
+  message: 'Example app listening on port 5500',
+  level: 'info',
+  label: 'Fahad Uni',
+  timestamp: '2023-06-12T14:10:24.546Z'
+}
