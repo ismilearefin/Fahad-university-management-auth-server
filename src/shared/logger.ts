@@ -21,7 +21,7 @@ const logger = createLogger({
     prettyPrint()
   ),
   transports: [
-    // new transports.Console(),
+    new transports.Console(),
     new DailyRotateFile({
       filename: path.join(
         process.cwd(),

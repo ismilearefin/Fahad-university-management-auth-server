@@ -179,6 +179,36 @@
             "date": 1686477625386,
             "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-11-16-error.log",
             "hash": "c8a285e5d665ccbf4085c9704fb0ac22ec98935046aa65cd196c05dbdb74b243"
+        },
+        {
+            "date": 1686549395379,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-11-error.log",
+            "hash": "3f24cd103d3a7abd4a2a78608b1bdbb663eed8997b5a775e893f1d85b20761aa"
+        },
+        {
+            "date": 1686549694012,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-12-error.log",
+            "hash": "1a7419a91450e172e3b9638c6a28f76feac92c86695cc0aa76d04876d14eed6d"
+        },
+        {
+            "date": 1686553245895,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-13-error.log",
+            "hash": "6aff0d559d961b23e3b7314daf593f47704e65a05d9f986e297f6f46b3c96c4c"
+        },
+        {
+            "date": 1686563557294,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-15-error.log",
+            "hash": "15a3bc7243f5c8e3a1b77c36163210e06bcf04f706edf19d182c29b2bebc1aaf"
+        },
+        {
+            "date": 1686564005245,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-16-error.log",
+            "hash": "dd2b94b00578f083888785f8db789eeb896da96e9157831b527460ac75300ab8"
+        },
+        {
+            "date": 1686567635779,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\error\\uni-2023-06-12-17-error.log",
+            "hash": "ad0ca5155c76aa3f959254d7d6e268e0ec7546c9c014102ec337a4b9008c9b12"
         }
     ],
     "hashType": "sha256"

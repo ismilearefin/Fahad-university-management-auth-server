@@ -49,12 +49,17 @@ const getSingleSemester = catchAsync(
   async (req: Request, res: Response, next: NextFunction) => {
     const id = req.params.id;
 
+    // console.log(id)
     const result = await AcademicSemesterService.getSingleSemester(id);
+
+    // console.log(result)
     sendResponse<IAcademicSemester>(res, {
       success: true,
       message: 'Semester retrieved successfully',
       statusCode: 200,
       data: result,
+      // meta: result.meta,
+      // data: result.data,
     });
     next();
   }
