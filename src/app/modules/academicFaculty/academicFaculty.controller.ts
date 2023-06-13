@@ -5,6 +5,7 @@ import sendResponse from '../../../shared/sendResponse';
 import pick from '../../../shared/pick';
 import { academicFacultyFilterableFields } from './academicFaculty.constants';
 import { paginationFields } from '../../../constants/pagination';
+import { IAcademicFaculty } from './academicFaculty.interface';
 
 const createFaculty = catchAsync(async (req: Request, res: Response) => {
   const { ...academicFacultyData } = req.body;
@@ -29,7 +30,7 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
     paginationOptions
   );
 
-  sendResponse(res, {
+  sendResponse<IAcademicFaculty[]>(res, {
     statusCode: 200,
     success: true,
     message: 'Academic Faculties retrieved successfully',
@@ -38,7 +39,19 @@ const getAllFaculties = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
+const getSingleFaculty = catchAsync(async (req: Request, res: Response) => {
+  const { id } = req.params;
+  const result = await AcademicFacultyService.getSingleFaculty(id);
+  sendResponse(res, {
+    statusCode: 200,
+    success: true,
+    message: 'Academic Faculty fetched successfully',
+    data: result,
+  });
+});
+
 export const AcademicFacultyController = {
   createFaculty,
   getAllFaculties,
+  getSingleFaculty,
 };
