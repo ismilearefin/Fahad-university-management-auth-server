@@ -224,6 +224,11 @@
             "date": 1686605705409,
             "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-13-03-success.log",
             "hash": "2eb52387eed210afb85c116faf7caa914454177ad93d67a992864ca92a3b3c2c"
+        },
+        {
+            "date": 1686642147235,
+            "name": "C:\\projects\\Fahad-university\\university-management-auth-server\\logs\\winston\\success\\uni-2023-06-13-13-success.log",
+            "hash": "3a11c99be2b96a6e5649313f8cac7afd9b18a0493a20d4411298260a9f06f96d"
         }
     ],
     "hashType": "sha256"
