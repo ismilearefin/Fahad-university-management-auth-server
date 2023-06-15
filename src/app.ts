@@ -2,6 +2,8 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import router from './app/routes';
+// import { generateFacultyId, generateStudentId } from './app/modules/users/user.utils';
+// import { generateStudentId } from './app/modules/users/user.utils';
 
 const app: Application = express();
 app.use(cors());
@@ -28,5 +30,12 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   });
   next();
 });
+
+// const academicSemesterT ={
+//   code:'01',
+//   year: '2015',
+// }
+// const testId = generateFacultyId();
+// console.log(testId);
 
 export default app;

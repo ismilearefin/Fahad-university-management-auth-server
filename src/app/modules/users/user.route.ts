@@ -7,10 +7,11 @@ const router = express.Router();
 
 // step -- > 5
 
+// create student route
 router.post(
-  '/create-user',
+  '/create-student',
   validateRequest(UserValidation.createUserZodSchema),
-  UserController.createUser
+  UserController.createStudent
 );
 
 export const UserRoutes = router;
