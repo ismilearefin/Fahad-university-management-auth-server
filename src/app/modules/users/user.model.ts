@@ -24,10 +24,10 @@ const userSchema = new Schema<IUser>(
     //     type: Schema.Types.ObjectId,
     //     ref:'Admin'
     //  },
-    //    faculty:{
-    //     type: Schema.Types.ObjectId,
-    //     ref:'Faculty'
-    //  }
+    faculty: {
+      type: Schema.Types.ObjectId,
+      ref: 'Faculty',
+    },
   },
   {
     timestamps: true,
