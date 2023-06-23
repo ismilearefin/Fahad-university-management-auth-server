@@ -2,11 +2,13 @@ import express, { Application, NextFunction, Request, Response } from 'express';
 import cors from 'cors';
 import globalErrorHandler from './app/middlewares/globalErrorHandler';
 import router from './app/routes';
+import cookieParser from 'cookie-parser';
 // import { generateFacultyId, generateStudentId } from './app/modules/users/user.utils';
 // import { generateStudentId } from './app/modules/users/user.utils';
 
 const app: Application = express();
 app.use(cors());
+app.use(cookieParser());
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
