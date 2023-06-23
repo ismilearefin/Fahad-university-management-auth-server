@@ -1,3 +1,4 @@
+import { Secret } from 'jsonwebtoken';
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 import config from '../../../config';
@@ -53,7 +54,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
   try {
     verifiedToken = jwtHelpers.verifyToken(
       token,
-      config.jwt.refresh_secret as string
+      config.jwt.refresh_secret as Secret
     );
   } catch (err) {
     throw new ApiError(401, 'Invalid refresh token');
@@ -71,7 +72,7 @@ const refreshToken = async (token: string): Promise<IRefreshTokenResponse> => {
       id: isUserExist.id,
       role: isUserExist.role,
     },
-    config.jwt.secret as string,
+    config.jwt.secret as Secret,
     config.jwt.expires_in as string
   );
 
